@@ -4,10 +4,7 @@
 		<Gattung>Stichwaffen</Gattung>
 		<Gattung>Wuchtwaffen</Gattung>
 		<Gattung>Schnittwaffen</Gattung>
-		<Gattung>Geschütze</Gattung>
-		<Gattung>Fernkampfwaffen</Gattung>
 		<Gattung>Winzige Waffen</Gattung>
-		<Gattung>Schild</Gattung>
 	</Gattungen>
 	<Besonderheiten>
 		<Besonderheit>
@@ -50,16 +47,17 @@
 			<Name>Paradebonus</Name>
 			<Effekt>Bonus von +2 auf Parade</Effekt>
 		</Besonderheit>
+		<Besonderheit>
+			<Name>Zweihändig</Name>
+			<Effekt>Zweihändig geführte Waffe die daher nicht für den Gebrauch vom Reittier aus gedacht ist. Malus von -5 wenn dennoch zweihändig vom Pferd aus geführt.</Effekt>
+		</Besonderheit>
 	</Besonderheiten>
 	<Waffen>
 		<Waffe>
 			<Name>Berdyche (Schusswaffenaufsatz)</Name>
-			<Gattung>Stichwaffen</Stichwaffen>
+			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10</Schaden>
 			<Schadensart>T</Schadensart>
-			<Reichweite>-</Reichweite>
-			<Ladezeit>-</Ladezeit>
-			<Schuss>-</Schuss>
 			<Mindeststaerke>3</Mindeststaerke>
 			<Groesse>K</Groesse>
 			<Gewicht>0,5</Gewicht>
@@ -68,12 +66,9 @@
 		</Waffe>
 		<Waffe>
 			<Name>Cestus (Kampfhandschuh)</Name>
-			<Gattung>Stichwaffen</Stichwaffen>
+			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10</Schaden>
 			<Schadensart>T</Schadensart>
-			<Reichweite>-</Reichweite>
-			<Ladezeit>-</Ladezeit>
-			<Schuss>-</Schuss>
 			<Mindeststaerke>3</Mindeststaerke>
 			<Groesse>K</Groesse>
 			<Gewicht>1</Gewicht>
@@ -82,12 +77,9 @@
 		</Waffe>
 		<Waffe>
 			<Name>Degen</Name>
-			<Gattung>Stichwaffen</Stichwaffen>
+			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10 + 3</Schaden>
 			<Schadensart>T</Schadensart>
-			<Reichweite>-</Reichweite>
-			<Ladezeit>-</Ladezeit>
-			<Schuss>-</Schuss>
 			<Mindeststaerke>4</Mindeststaerke>
 			<Groesse>M</Groesse>
 			<Gewicht>0,75</Gewicht>
@@ -96,12 +88,9 @@
 		</Waffe>
 		<Waffe>
 			<Name>Dolch/Messer</Name>
-			<Gattung>Stichwaffen</Stichwaffen>
+			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10</Schaden>
 			<Schadensart>T</Schadensart>
-			<Reichweite>-</Reichweite>
-			<Ladezeit>-</Ladezeit>
-			<Schuss>-</Schuss>
 			<Mindeststaerke>2</Mindeststaerke>
 			<Groesse>K</Groesse>
 			<Gewicht>0,25</Gewicht>
@@ -109,13 +98,21 @@
 			<Besonderheit>-</Besonderheit>
 		</Waffe>
 		<Waffe>
-			<Name>Dreizack (EH/ZH)</Name>
-			<Gattung>Stichwaffen</Stichwaffen>
-			<Schaden>2w10-1 / 2w10+1</Schaden>
+			<Name>Dreizack</Name>
+			<Gattung>Stichwaffen</Gattung>
+			<Schaden>2w10+1</Schaden>
 			<Schadensart>T</Schadensart>
-			<Reichweite>-</Reichweite>
-			<Ladezeit>-</Ladezeit>
-			<Schuss>-</Schuss>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>2,5</Gewicht>
+			<Preis>250</Preis>
+			<Besonderheit>Antikavallerie; Zweihändig</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Dreizack</Name>
+			<Gattung>Stichwaffen</Gattung>
+			<Schaden>2w10-1</Schaden>
+			<Schadensart>T</Schadensart>
 			<Mindeststaerke>4</Mindeststaerke>
 			<Groesse>M</Groesse>
 			<Gewicht>2,5</Gewicht>
@@ -124,12 +121,9 @@
 		</Waffe>
 		<Waffe>
 			<Name>Florett</Name>
-			<Gattung>Stichwaffen</Stichwaffen>
+			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10+1</Schaden>
 			<Schadensart>T</Schadensart>
-			<Reichweite>-</Reichweite>
-			<Ladezeit>-</Ladezeit>
-			<Schuss>-</Schuss>
 			<Mindeststaerke>2</Mindeststaerke>
 			<Groesse>M</Groesse>
 			<Gewicht>0,25</Gewicht>
@@ -138,12 +132,9 @@
 		</Waffe>
 		<Waffe>
 			<Name>Fußangeln (10)</Name>
-			<Gattung>Stichwaffen</Stichwaffen>
+			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1-2</Schaden>
 			<Schadensart>T</Schadensart>
-			<Reichweite>-</Reichweite>
-			<Ladezeit>-</Ladezeit>
-			<Schuss>-</Schuss>
 			<Mindeststaerke>0</Mindeststaerke>
 			<Groesse>K</Groesse>
 			<Gewicht>0,25</Gewicht>
@@ -152,12 +143,9 @@
 		</Waffe>
 		<Waffe>
 			<Name>Gaffel/Haken</Name>
-			<Gattung>Stichwaffen</Stichwaffen>
+			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10</Schaden>
 			<Schadensart>T</Schadensart>
-			<Reichweite>-</Reichweite>
-			<Ladezeit>-</Ladezeit>
-			<Schuss>-</Schuss>
 			<Mindeststaerke>3</Mindeststaerke>
 			<Groesse>K</Groesse>
 			<Gewicht>0,5</Gewicht>
@@ -166,12 +154,9 @@
 		</Waffe>
 		<Waffe>
 			<Name>Geißel (neunschwänzig)</Name>
-			<Gattung>Stichwaffen</Stichwaffen>
+			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10-1</Schaden>
 			<Schadensart>T</Schadensart>
-			<Reichweite>-</Reichweite>
-			<Ladezeit>-</Ladezeit>
-			<Schuss>-</Schuss>
 			<Mindeststaerke>2</Mindeststaerke>
 			<Groesse>K</Groesse>
 			<Gewicht>0,5</Gewicht>
@@ -179,27 +164,21 @@
 			<Besonderheit>-</Besonderheit>
 		</Waffe>
 		<Waffe>
-			<Name>Glefe (ZH)</Name>
-			<Gattung>Stichwaffen</Stichwaffen>
+			<Name>Glefe</Name>
+			<Gattung>Stichwaffen</Gattung>
 			<Schaden>2w10</Schaden>
 			<Schadensart>T</Schadensart>
-			<Reichweite>-</Reichweite>
-			<Ladezeit>-</Ladezeit>
-			<Schuss>-</Schuss>
 			<Mindeststaerke>4</Mindeststaerke>
 			<Groesse>G</Groesse>
 			<Gewicht>3,5</Gewicht>
 			<Preis>200</Preis>
-			<Besonderheit>Antikavallerie</Besonderheit>
+			<Besonderheit>Antikavallerie; Zweihändig</Besonderheit>
 		</Waffe>
 		<Waffe>
 			<Name>Halblingdegen/-rapier "Stecher"</Name>
-			<Gattung>Stichwaffen</Stichwaffen>
+			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10+1</Schaden>
 			<Schadensart>T</Schadensart>
-			<Reichweite>-</Reichweite>
-			<Ladezeit>-</Ladezeit>
-			<Schuss>-</Schuss>
 			<Mindeststaerke>2</Mindeststaerke>
 			<Groesse>K</Groesse>
 			<Gewicht>0,25</Gewicht>
@@ -208,12 +187,9 @@
 		</Waffe>
 		<Waffe>
 			<Name>Khatar (Schlagdolch)</Name>
-			<Gattung>Stichwaffen</Stichwaffen>
+			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10</Schaden>
 			<Schadensart>T</Schadensart>
-			<Reichweite>-</Reichweite>
-			<Ladezeit>-</Ladezeit>
-			<Schuss>-</Schuss>
 			<Mindeststaerke>3</Mindeststaerke>
 			<Groesse>K</Groesse>
 			<Gewicht>0,25</Gewicht>
@@ -221,27 +197,21 @@
 			<Besonderheit>-</Besonderheit>
 		</Waffe>
 		<Waffe>
-			<Name>Kriegsgabel (ZH)</Name>
-			<Gattung>Stichwaffen</Stichwaffen>
+			<Name>Kriegsgabel</Name>
+			<Gattung>Stichwaffen</Gattung>
 			<Schaden>2w10+2</Schaden>
 			<Schadensart>T</Schadensart>
-			<Reichweite>-</Reichweite>
-			<Ladezeit>-</Ladezeit>
-			<Schuss>-</Schuss>
 			<Mindeststaerke>4</Mindeststaerke>
 			<Groesse>G</Groesse>
 			<Gewicht>3</Gewicht>
 			<Preis>100</Preis>
-			<Besonderheit>Antikavallerie; Initiative</Besonderheit>
+			<Besonderheit>Antikavallerie; Initiative; Zweihändig</Besonderheit>
 		</Waffe>
 		<Waffe>
 			<Name>Kurzschwert</Name>
-			<Gattung>Stichwaffen</Stichwaffen>
+			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10+4</Schaden>
 			<Schadensart>T</Schadensart>
-			<Reichweite>-</Reichweite>
-			<Ladezeit>-</Ladezeit>
-			<Schuss>-</Schuss>
 			<Mindeststaerke>4</Mindeststaerke>
 			<Groesse>K</Groesse>
 			<Gewicht>1</Gewicht>
@@ -249,17 +219,102 @@
 			<Besonderheit>-</Besonderheit>
 		</Waffe>
 		<Waffe>
-			<Name>Langspeer (ZH)</Name>
-			<Gattung>Stichwaffen</Stichwaffen>
+			<Name>Langspeer</Name>
+			<Gattung>Stichwaffen</Gattung>
 			<Schaden>2w10+2</Schaden>
 			<Schadensart>T</Schadensart>
-			<Reichweite>-</Reichweite>
-			<Ladezeit>-</Ladezeit>
-			<Schuss>-</Schuss>
-			<Mindeststaerke>2</Mindeststaerke>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>3</Gewicht>
+			<Preis>150</Preis>
+			<Besonderheit>Antikavallerie; Initiative; Zweihändig</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Lanze (nur vom Reittier aus)</Name>
+			<Gattung>Stichwaffen</Gattung>
+			<Schaden>3w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>5</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>4</Gewicht>
+			<Preis>100</Preis>
+			<Besonderheit>Initiative</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Main Gauche "Parierdolch"</Name>
+			<Gattung>Stichwaffen</Gattung>
+			<Schaden>1w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>0,5</Gewicht>
+			<Preis>150</Preis>
+			<Besonderheit>Paradebonus</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Mornabart (Kette mit Haken)</Name>
+			<Gattung>Stichwaffen</Gattung>
+			<Schaden>1w10+2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>2</Gewicht>
+			<Preis>120</Preis>
+			<Besonderheit>Umschlingend; Kettenwaffe; Geschicklichkeitsanforderung 6</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Pike</Name>
+			<Gattung>Stichwaffen</Gattung>
+			<Schaden>2w10+3</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>5</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>5</Gewicht>
+			<Preis>280</Preis>
+			<Besonderheit>Initiative; Antikavallerie; Zweihändig</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Rapier</Name>
+			<Gattung>Stichwaffen</Gattung>
+			<Schaden>1w10+2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>0,5</Gewicht>
+			<Preis>450</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Speer</Name>
+			<Gattung>Stichwaffen</Gattung>
+			<Schaden>1w10+2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>2</Gewicht>
+			<Preis>90</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Spikes (auf Rüstung oder Schild)</Name>
+			<Gattung>Stichwaffen</Gattung>
+			<Schaden>1w10-1</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>0,5</Gewicht>
+			<Preis>150</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Stilett</Name>
+			<Gattung>Stichwaffen</Gattung>
+			<Schaden>1w10-1</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>1</Mindeststaerke>
 			<Groesse>K</Groesse>
 			<Gewicht>0,25</Gewicht>
-			<Preis>50</Preis>
+			<Preis>60</Preis>
 			<Besonderheit>-</Besonderheit>
 		</Waffe>
 	</Waffen>
