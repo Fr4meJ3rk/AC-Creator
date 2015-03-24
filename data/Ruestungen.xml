@@ -6,8 +6,8 @@
 		<Gattung>Gladiator</Gattung>
 	</Gattungen>
 	<Besonderheiten>
-		<Besonderheit>Schützt Gesicht</Besonderheit>
-		<Besonderheit>Schützt Gesicht und Augen</Besonderheit>
+		<Besonderheit>Schützt nur Schwertarm</Besonderheit>
+		<Besonderheit>Schützt entweder rechts oder links</Besonderheit>
 	</Besonderheiten>
 	<Ruestungen>
 		<Ruestung>
@@ -15,15 +15,19 @@
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
-			<Rüstungsschutz>
+			<Ruestungsschutz>
 				<Gesamt>7</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>-2</Belastung>
 			<Mindeststärke>4</Mindeststärke>
 			<Gewicht>28</Gewicht>
@@ -42,15 +46,19 @@
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
-			<Rüstungsschutz>
+			<Ruestungsschutz>
 				<Gesamt>6</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>-3</Belastung>
 			<Mindeststärke>3</Mindeststärke>
 			<Gewicht>25</Gewicht>
@@ -69,15 +77,19 @@
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
-			<Rüstungsschutz>
+			<Ruestungsschutz>
 				<Gesamt>6</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>-1</Belastung>
 			<Mindeststärke>3</Mindeststärke>
 			<Gewicht>25</Gewicht>
@@ -96,15 +108,19 @@
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
-			<Rüstungsschutz>
+			<Ruestungsschutz>
 				<Gesamt>4</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>-1</Belastung>
 			<Mindeststärke>2</Mindeststärke>
 			<Gewicht>12</Gewicht>
@@ -123,15 +139,19 @@
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
-			<Rüstungsschutz>
+			<Ruestungsschutz>
 				<Gesamt>3</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>-1</Belastung>
 			<Mindeststärke>2</Mindeststärke>
 			<Gewicht>12</Gewicht>
@@ -150,15 +170,19 @@
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
-			<Rüstungsschutz>
+			<Ruestungsschutz>
 				<Gesamt>7</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>-2</Belastung>
 			<Mindeststärke>4</Mindeststärke>
 			<Gewicht>25</Gewicht>
@@ -177,15 +201,19 @@
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
-			<Rüstungsschutz>
+			<Ruestungsschutz>
 				<Gesamt>6</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>-2</Belastung>
 			<Mindeststärke>3</Mindeststärke>
 			<Gewicht>20</Gewicht>
@@ -204,15 +232,19 @@
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
-			<Rüstungsschutz>
+			<Ruestungsschutz>
 				<Gesamt>4</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>-1</Belastung>
 			<Mindeststärke>2</Mindeststärke>
 			<Gewicht>10</Gewicht>
@@ -231,15 +263,19 @@
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
-			<Rüstungsschutz>
+			<Ruestungsschutz>
 				<Gesamt>3</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>-1</Belastung>
 			<Mindeststärke>2</Mindeststärke>
 			<Gewicht>5</Gewicht>
@@ -258,15 +294,19 @@
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
-			<Rüstungsschutz>
+			<Ruestungsschutz>
 				<Gesamt>9</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>-3</Belastung>
 			<Mindeststärke>5</Mindeststärke>
 			<Gewicht>30</Gewicht>
@@ -285,15 +325,19 @@
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
-			<Rüstungsschutz>
+			<Ruestungsschutz>
 				<Gesamt>4</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>-1</Belastung>
 			<Mindeststärke>2</Mindeststärke>
 			<Gewicht>7,5</Gewicht>
@@ -312,15 +356,19 @@
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
-			<Rüstungsschutz>
+			<Ruestungsschutz>
 				<Gesamt>6</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>-2</Belastung>
 			<Mindeststärke>3</Mindeststärke>
 			<Gewicht>15</Gewicht>
@@ -339,15 +387,19 @@
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
-			<Rüstungsschutz>
+			<Ruestungsschutz>
 				<Gesamt>5</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>-2</Belastung>
 			<Mindeststärke>3</Mindeststärke>
 			<Gewicht>13</Gewicht>
@@ -366,15 +418,19 @@
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
-			<Rüstungsschutz>
+			<Ruestungsschutz>
 				<Gesamt>1</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>0</Belastung>
 			<Mindeststärke>1</Mindeststärke>
 			<Gewicht>2,5</Gewicht>
@@ -392,16 +448,20 @@
 			<Name>Vollplatte(Ritterrüstung)</Name>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
-			<Besonderheit>Schützt Gesicht</Besonderheit>
-			<Rüstungsschutz>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
 				<Gesamt>12</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>12</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>-4</Belastung>
 			<Mindeststärke>6</Mindeststärke>
 			<Gewicht>35</Gewicht>
@@ -420,15 +480,19 @@
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
-			<Rüstungsschutz>
+			<Ruestungsschutz>
 				<Gesamt>2</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>-1</Belastung>
 			<Mindeststärke>1</Mindeststärke>
 			<Gewicht>5</Gewicht>
@@ -446,16 +510,20 @@
 			<Name>Zwergenplattenpanzer</Name>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
-			<Besonderheit>Schützt Gesicht und Augen</Besonderheit>
-			<Rüstungsschutz>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
 				<Gesamt>8</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>8</Gesicht>
+				<Augen>8</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
 			<Belastung>-3</Belastung>
 			<Mindeststärke>4</Mindeststärke>
 			<Gewicht>25</Gewicht>
@@ -470,30 +538,603 @@
 			</Preis>
 		</Ruestung>
 		<Ruestung>
-			<Name></Name>
-			<Gattung>Normal</Gattung>
+			<Name>Lederrüstung</Name>
+			<Gattung>Winzig</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
-			<Rüstungsschutz>
-				<Gesamt></Gesamt>
+			<Ruestungsschutz>
+				<Gesamt>1</Gesamt>
 				<Helm>-</Helm>
-				<Arme>-</Arme>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
-			</Rüstungsschutz>
-			<Belastung></Belastung>
-			<Mindeststärke></Mindeststärke>
-			<Gewicht></Gewicht>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>0</Belastung>
+			<Mindeststärke>1</Mindeststärke>
+			<Gewicht>1</Gewicht>
 			<Preis>
-				<Gesamt></Gesamt>
+				<Gesamt>200</Gesamt>
 				<Helm>-</Helm>
 				<Arme>-</Arme>
 				<Beine>-</Beine>
 				<Haende>-</Haende>
 				<Schuhe>-</Schuhe>
 				<Torso>-</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Miniaturfarn</Name>
+			<Gattung>Winzig</Gattung>
+			<Beschreibung>-</Beschreibung>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>2</Gesamt>
+				<Helm>-</Helm>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>-</Torso>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>-1</Belastung>
+			<Mindeststärke>1</Mindeststärke>
+			<Gewicht>1,5</Gewicht>
+			<Preis>
+				<Gesamt>800</Gesamt>
+				<Helm>-</Helm>
+				<Arme>-</Arme>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>-</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Mithrilharnisch</Name>
+			<Gattung>Winzig</Gattung>
+			<Beschreibung>-</Beschreibung>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>4</Gesamt>
+				<Helm>-</Helm>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>-</Torso>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>-1</Belastung>
+			<Mindeststärke>2</Mindeststärke>
+			<Gewicht>3</Gewicht>
+			<Preis>
+				<Gesamt>4000</Gesamt>
+				<Helm>-</Helm>
+				<Arme>-</Arme>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>-</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Mithrilkettenhemd</Name>
+			<Gattung>Winzig</Gattung>
+			<Beschreibung>-</Beschreibung>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>2</Gesamt>
+				<Helm>-</Helm>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>-</Torso>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>-1</Belastung>
+			<Mindeststärke>1</Mindeststärke>
+			<Gewicht>1,5</Gewicht>
+			<Preis>
+				<Gesamt>1800</Gesamt>
+				<Helm>-</Helm>
+				<Arme>-</Arme>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>-</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Bestiarius</Name>
+			<Gattung>Gladiatoren</Gattung>
+			<Beschreibung>Der Bestiarius ist mit einer Galea und einem Harnisch aus schwerem Leder 
+gerüstet. Er kämpft mit Peitsche und Speer, meist gegen Monster und wilde Tiere.</Beschreibung>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>3</Gesamt>
+				<Helm>11</Helm>
+				<Gesicht>11</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>5</Torso>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>-1</Belastung>
+			<Mindeststärke>2</Mindeststärke>
+			<Gewicht>7,75</Gewicht>
+			<Preis>
+				<Gesamt>1780</Gesamt>
+				<Helm>1600</Helm>
+				<Arme>-</Arme>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>180</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Dimachaeri</Name>
+			<Gattung>Gladiatoren</Gattung>
+			<Beschreibung>Der  Dimachaeri  besteht  aus  Galea,  Bronzebeinpanzerung  und 
+einer Bronzebrustpanzerung. Er kämpft mit einem Breitschwert in jeder Hand.</Beschreibung>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>5</Gesamt>
+				<Helm>11</Helm>
+				<Gesicht>11</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
+				<Beine>6</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>6</Torso>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>-3</Belastung>
+			<Mindeststärke>3</Mindeststärke>
+			<Gewicht>18,25</Gewicht>
+			<Preis>
+				<Gesamt>2095</Gesamt>
+				<Helm>1600</Helm>
+				<Arme>-</Arme>
+				<Beine>165</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>330</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Drakus</Name>
+			<Gattung>Gladiatoren</Gattung>
+			<Beschreibung>Der Drakus besteht aus einer Galea und zwei Galeri. Oft wird dazu eine 
+Tartsche getragen. Der so gerüstete Gladiator kämpft klassischerweise mit einer 
+Khopesh oder dem Kurzschwert.</Beschreibung>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>5</Gesamt>
+				<Helm>11</Helm>
+				<Gesicht>11</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>9</ArmLinks>
+				<ArmRechts>9</ArmRechts>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>-</Torso>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>-2</Belastung>
+			<Mindeststärke>3</Mindeststärke>
+			<Gewicht>7,5</Gewicht>
+			<Preis>
+				<Gesamt>2800</Gesamt>
+				<Helm>1600</Helm>
+				<Arme>1200</Arme>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>-</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Equites</Name>
+			<Gattung>Gladiatoren</Gattung>
+			<Beschreibung>Zur Rüstung des Equites gehört lediglich eine Bronzebrustplatte. Er 
+kämpft mit einem Langschwert und einem Speer vom Pferd aus.</Beschreibung>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>1</Gesamt>
+				<Helm>-</Helm>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>6</Torso>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>0</Belastung>
+			<Mindeststärke>1</Mindeststärke>
+			<Gewicht>9</Gewicht>
+			<Preis>
+				<Gesamt>330</Gesamt>
+				<Helm>-</Helm>
+				<Arme>-</Arme>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>330</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Essedari</Name>
+			<Gattung>Gladiatoren</Gattung>
+			<Beschreibung>Der Essedari-Gladiator trägt den Topfhelm eines Plattenpanzers und 
+ein langärmliges Kettenhemd. Er kämpft mit Speeren, Spießen oder Schwertern 
+mit einem Partner vom Streitwagen aus.</Beschreibung>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>5</Gesamt>
+				<Helm>9</Helm>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>7</ArmLinks>
+				<ArmRechts>7</ArmRechts>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>7</Torso>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>-2</Belastung>
+			<Mindeststärke>3</Mindeststärke>
+			<Gewicht>16,25</Gewicht>
+			<Preis>
+				<Gesamt>1600</Gesamt>
+				<Helm>700</Helm>
+				<Arme>300</Arme>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>600</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Galea (Gladiatorenhelm)</Name>
+			<Gattung>Gladiatoren</Gattung>
+			<Beschreibung>-</Beschreibung>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>2</Gesamt>
+				<Helm>11</Helm>
+				<Gesicht>11</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>-</Torso>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>-1</Belastung>
+			<Mindeststärke>1</Mindeststärke>
+			<Gewicht>3</Gewicht>
+			<Preis>
+				<Gesamt>1600</Gesamt>
+				<Helm>1600</Helm>
+				<Arme>-</Arme>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>-</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Galerus (Panzerarm)</Name>
+			<Gattung>Gladiatoren</Gattung>
+			<Beschreibung>-</Beschreibung>
+			<Besonderheit>Schützt entweder rechts oder links</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>2</Gesamt>
+				<Helm>-</Helm>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>9</ArmLinks>
+				<ArmRechts>9</ArmRechts>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>-</Torso>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>-1</Belastung>
+			<Mindeststärke>1</Mindeststärke>
+			<Gewicht>2,25</Gewicht>
+			<Preis>
+				<Gesamt>300</Gesamt>
+				<Helm>-</Helm>
+				<Arme>300</Arme>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>-</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Gesichtsmaske (Leder)</Name>
+			<Gattung>Gladiatoren</Gattung>
+			<Beschreibung>-</Beschreibung>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>0</Gesamt>
+				<Helm>1</Helm>
+				<Gesicht>4</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>-</Torso>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>0</Belastung>
+			<Mindeststärke>0</Mindeststärke>
+			<Gewicht>0,5</Gewicht>
+			<Preis>
+				<Gesamt>50</Gesamt>
+				<Helm>50</Helm>
+				<Arme>-</Arme>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>-</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Gesichtsmaske (Metall)</Name>
+			<Gattung>Gladiatoren</Gattung>
+			<Beschreibung>-</Beschreibung>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>0</Gesamt>
+				<Helm>2</Helm>
+				<Gesicht>11</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>-</Torso>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>0</Belastung>
+			<Mindeststärke>0</Mindeststärke>
+			<Gewicht>1</Gewicht>
+			<Preis>
+				<Gesamt>200</Gesamt>
+				<Helm>200</Helm>
+				<Arme>-</Arme>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>-</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Intimschutz (Leder)</Name>
+			<Gattung>Gladiatoren</Gattung>
+			<Beschreibung>-</Beschreibung>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>0</Gesamt>
+				<Helm>-</Helm>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>1</Torso>
+				<Weichteile>4</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>0</Belastung>
+			<Mindeststärke>0</Mindeststärke>
+			<Gewicht>0,5</Gewicht>
+			<Preis>
+				<Gesamt>50</Gesamt>
+				<Helm>-</Helm>
+				<Arme>-</Arme>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>50</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Intimschutz (Metall)</Name>
+			<Gattung>Gladiatoren</Gattung>
+			<Beschreibung>-</Beschreibung>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>0</Gesamt>
+				<Helm>-</Helm>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>2</Torso>
+				<Weichteile>11</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>0</Belastung>
+			<Mindeststärke>0</Mindeststärke>
+			<Gewicht>1</Gewicht>
+			<Preis>
+				<Gesamt>150</Gesamt>
+				<Helm>-</Helm>
+				<Arme>-</Arme>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>150</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Khemnit</Name>
+			<Gattung>Gladiatoren</Gattung>
+			<Beschreibung>Am Torso ist der Khemnit mit einer Bronzebrustplatte gepanzert, am 
+Schwertarm mit einem Galerus und am Kopf mit einer Galea. Zu dieser Rüstung 
+trägt er einen Rundschild und ein Kurzschwert oder ein Breitschwert.</Beschreibung>
+			<Besonderheit>Schützt nur Schwertarm</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>4</Gesamt>
+				<Helm>11</Helm>
+				<Gesicht>11</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>9</ArmLinks>
+				<ArmRechts>9</ArmRechts>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>6</Torso>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>-1</Belastung>
+			<Mindeststärke>2</Mindeststärke>
+			<Gewicht>14,25</Gewicht>
+			<Preis>
+				<Gesamt>2530</Gesamt>
+				<Helm>1600</Helm>
+				<Arme>600</Arme>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>330</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Retiarius</Name>
+			<Gattung>Gladiatoren</Gattung>
+			<Beschreibung>Der Retiarius trägt allenfalls eine Schulterplatte und kämpft ansonsten mit Dreizack, Dolch und Netz.</Beschreibung>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>0</Gesamt>
+				<Helm>-</Helm>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>1</Torso>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>0</Belastung>
+			<Mindeststärke>0</Mindeststärke>
+			<Gewicht>1,5</Gewicht>
+			<Preis>
+				<Gesamt>150</Gesamt>
+				<Helm>-</Helm>
+				<Arme>-</Arme>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>150</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Schulterplatte</Name>
+			<Gattung>Gladiatoren</Gattung>
+			<Beschreibung>-</Beschreibung>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>0</Gesamt>
+				<Helm>-</Helm>
+				<Gesicht>0</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>-</ArmLinks>
+				<ArmRechts>-</ArmRechts>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>1</Torso>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>0</Belastung>
+			<Mindeststärke>0</Mindeststärke>
+			<Gewicht>1,5</Gewicht>
+			<Preis>
+				<Gesamt>150</Gesamt>
+				<Helm>-</Helm>
+				<Arme>-</Arme>
+				<Beine>-</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>150</Torso>
+			</Preis>
+		</Ruestung>
+		<Ruestung>
+			<Name>Vargothio</Name>
+			<Gattung>Gladiatoren</Gattung>
+			<Beschreibung>Die Vargothio-Rüstungskombination besteht aus zwei Galeri, einer 
+Galea  und  einer  schweren  Lederrüstung  am  Rest  des  Körpers.  Der  Gladiator 
+kämpft mit einem Breitschwert und einem Turmschild.</Beschreibung>
+			<Besonderheit>-</Besonderheit>
+			<Ruestungsschutz>
+				<Gesamt>7</Gesamt>
+				<Helm>11</Helm>
+				<Gesicht>11</Gesicht>
+				<Augen>0</Augen>
+				<ArmLinks>9</ArmLinks>
+				<ArmRechts>9</ArmRechts>
+				<Beine>5</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>5</Torso>
+				<Weichteile>-</Weichteile>
+			</Ruestungsschutz>
+			<Belastung>-2</Belastung>
+			<Mindeststärke>4</Mindeststärke>
+			<Gewicht>15,5</Gewicht>
+			<Preis>
+				<Gesamt>3070</Gesamt>
+				<Helm>1600</Helm>
+				<Arme>1200</Arme>
+				<Beine>90</Beine>
+				<Haende>-</Haende>
+				<Schuhe>-</Schuhe>
+				<Torso>180</Torso>
 			</Preis>
 		</Ruestung>
 	</Ruestungen>
