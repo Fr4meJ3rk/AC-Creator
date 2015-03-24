@@ -35,8 +35,20 @@
 			<Effekt>Es wird ein gewisser Geschicklichkeitswert benötigt um die Waffe führen zu können.</Effekt>
 		</Besonderheit>
 		<Besonderheit>
-			<Name></Name>
-			<Effekt></Effekt>
+			<Name>Umschlingend</Name>
+			<Effekt>Mit dieser Waffe kann man versuchen, den Gegner zu umschlingen. Dieser kann bei Erfolg nur versuchen, sich mit einer Probe auf Entfesseln gegen den Wurf des Angreifers als MW zu befreien oder sich mit Kraftakt loszureißen.</Effekt>
+		</Besonderheit>
+		<Besonderheit>
+			<Name>Lasso</Name>
+			<Effekt>Bewegt sich der Angreifer schneller als der Gefangene, oder holt er das Lasso ein, so bekommt der Gefangene den Schaden, bis er sich befreit oder stirbt. Der Gefangene kann sich dagegen mit einer entgegengesetzten Kraftaktprobe als Aktion wehren. Gewinnt er, so hat er den Angreifer zu Boden gerissen.</Effekt>
+		</Besonderheit>
+		<Besonderheit>
+			<Name>Fußangeln</Name>
+			<Effekt>Erleidet der Gegner Schaden durch Fußangeln, so wirdseine Bewegungsweite für den Rest der Szene halbiert.</Effekt>
+		</Besonderheit>
+		<Besonderheit>
+			<Name>Paradebonus</Name>
+			<Effekt>Bonus von +2 auf Parade</Effekt>
 		</Besonderheit>
 	</Besonderheiten>
 	<Waffen>
@@ -136,7 +148,7 @@
 			<Groesse>K</Groesse>
 			<Gewicht>0,25</Gewicht>
 			<Preis>20</Preis>
-			<Besonderheit>Bewegungshemmend</Besonderheit>
+			<Besonderheit>Fußangeln</Besonderheit>
 		</Waffe>
 		<Waffe>
 			<Name>Gaffel/Haken</Name>
