@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AC-Creator>
+	<Gattungen>
+		<Gattung>Stichwaffen</Gattung>
+		<Gattung>Wuchtwaffen</Gattung>
+		<Gattung>Schnittwaffen</Gattung>
+		<Gattung>Geschütze</Gattung>
+		<Gattung>Fernkampfwaffen</Gattung>
+		<Gattung>Winzige Waffen</Gattung>
+		<Gattung>Schild</Gattung>
+	</Gattungen>
+	<Besonderheiten>
+		<Besonderheit>
+			<Name>Antikavallerie</Name>
+			<Effekt>Doppelter Schaden gegen den Sturmangriff eines Reiters.</Effekt>
+		</Besonderheit>
+		<Besonderheit>
+			<Name>Initiative</Name>
+			<Effekt>Erste Kampfrunde +6 Initiativebonus.</Effekt>
+		</Besonderheit>
+		<Besonderheit>
+			<Name>Kavalleriegeeignet</Name>
+			<Effekt>Kann auch von einem galoppierenden Reittier aus eingesetzt werden.</Effekt>
+		</Besonderheit>
+		<Besonderheit>
+			<Name>Kettenwaffe</Name>
+			<Effekt>Kritische Fehlschläge fügen dem Charakter vollen Schaden zu. Ist die Kette lang genug, wickelt sich diese um Ihn und er braucht zwei Aktionen um sich zu befreien.</Effekt>
+		</Besonderheit>
+		<Besonderheit>
+			<Name>Geschicklichkeitsanforderung 5</Name>
+			<Effekt>Es wird ein gewisser Geschicklichkeitswert benötigt um die Waffe führen zu können.</Effekt>
+		</Besonderheit>
+		<Besonderheit>
+			<Name>Geschicklichkeitsanforderung 6</Name>
+			<Effekt>Es wird ein gewisser Geschicklichkeitswert benötigt um die Waffe führen zu können.</Effekt>
+		</Besonderheit>
+		<Besonderheit>
+			<Name></Name>
+			<Effekt></Effekt>
+		</Besonderheit>
+	</Besonderheiten>
+	<Waffen>
+		<Waffe>
+			<Name>Berdyche (Schusswaffenaufsatz)</Name>
+			<Gattung>Stichwaffen</Stichwaffen>
+			<Schaden>1w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Reichweite>-</Reichweite>
+			<Ladezeit>-</Ladezeit>
+			<Schuss>-</Schuss>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>0,5</Gewicht>
+			<Preis>100</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Cestus (Kampfhandschuh)</Name>
+			<Gattung>Stichwaffen</Stichwaffen>
+			<Schaden>1w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Reichweite>-</Reichweite>
+			<Ladezeit>-</Ladezeit>
+			<Schuss>-</Schuss>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>1</Gewicht>
+			<Preis>200</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Degen</Name>
+			<Gattung>Stichwaffen</Stichwaffen>
+			<Schaden>1w10 + 3</Schaden>
+			<Schadensart>T</Schadensart>
+			<Reichweite>-</Reichweite>
+			<Ladezeit>-</Ladezeit>
+			<Schuss>-</Schuss>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>0,75</Gewicht>
+			<Preis>300</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Dolch/Messer</Name>
+			<Gattung>Stichwaffen</Stichwaffen>
+			<Schaden>1w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Reichweite>-</Reichweite>
+			<Ladezeit>-</Ladezeit>
+			<Schuss>-</Schuss>
+			<Mindeststaerke>2</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>0,25</Gewicht>
+			<Preis>50</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Dreizack (EH/ZH)</Name>
+			<Gattung>Stichwaffen</Stichwaffen>
+			<Schaden>2w10-1 / 2w10+1</Schaden>
+			<Schadensart>T</Schadensart>
+			<Reichweite>-</Reichweite>
+			<Ladezeit>-</Ladezeit>
+			<Schuss>-</Schuss>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>2,5</Gewicht>
+			<Preis>250</Preis>
+			<Besonderheit>Antikavallerie</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Florett</Name>
+			<Gattung>Stichwaffen</Stichwaffen>
+			<Schaden>1w10+1</Schaden>
+			<Schadensart>T</Schadensart>
+			<Reichweite>-</Reichweite>
+			<Ladezeit>-</Ladezeit>
+			<Schuss>-</Schuss>
+			<Mindeststaerke>2</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>0,25</Gewicht>
+			<Preis>300</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Fußangeln (10)</Name>
+			<Gattung>Stichwaffen</Stichwaffen>
+			<Schaden>1-2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Reichweite>-</Reichweite>
+			<Ladezeit>-</Ladezeit>
+			<Schuss>-</Schuss>
+			<Mindeststaerke>0</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>0,25</Gewicht>
+			<Preis>20</Preis>
+			<Besonderheit>Bewegungshemmend</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Gaffel/Haken</Name>
+			<Gattung>Stichwaffen</Stichwaffen>
+			<Schaden>1w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Reichweite>-</Reichweite>
+			<Ladezeit>-</Ladezeit>
+			<Schuss>-</Schuss>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>0,5</Gewicht>
+			<Preis>40</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Geißel (neunschwänzig)</Name>
+			<Gattung>Stichwaffen</Stichwaffen>
+			<Schaden>1w10-1</Schaden>
+			<Schadensart>T</Schadensart>
+			<Reichweite>-</Reichweite>
+			<Ladezeit>-</Ladezeit>
+			<Schuss>-</Schuss>
+			<Mindeststaerke>2</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>0,5</Gewicht>
+			<Preis>100</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Glefe (ZH)</Name>
+			<Gattung>Stichwaffen</Stichwaffen>
+			<Schaden>2w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Reichweite>-</Reichweite>
+			<Ladezeit>-</Ladezeit>
+			<Schuss>-</Schuss>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>3,5</Gewicht>
+			<Preis>200</Preis>
+			<Besonderheit>Antikavallerie</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Halblingdegen/-rapier "Stecher"</Name>
+			<Gattung>Stichwaffen</Stichwaffen>
+			<Schaden>1w10+1</Schaden>
+			<Schadensart>T</Schadensart>
+			<Reichweite>-</Reichweite>
+			<Ladezeit>-</Ladezeit>
+			<Schuss>-</Schuss>
+			<Mindeststaerke>2</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>0,25</Gewicht>
+			<Preis>500</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Khatar (Schlagdolch)</Name>
+			<Gattung>Stichwaffen</Stichwaffen>
+			<Schaden>1w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Reichweite>-</Reichweite>
+			<Ladezeit>-</Ladezeit>
+			<Schuss>-</Schuss>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>0,25</Gewicht>
+			<Preis>70</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Kriegsgabel (ZH)</Name>
+			<Gattung>Stichwaffen</Stichwaffen>
+			<Schaden>2w10+2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Reichweite>-</Reichweite>
+			<Ladezeit>-</Ladezeit>
+			<Schuss>-</Schuss>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>3</Gewicht>
+			<Preis>100</Preis>
+			<Besonderheit>Antikavallerie; Initiative</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Kurzschwert</Name>
+			<Gattung>Stichwaffen</Stichwaffen>
+			<Schaden>1w10+4</Schaden>
+			<Schadensart>T</Schadensart>
+			<Reichweite>-</Reichweite>
+			<Ladezeit>-</Ladezeit>
+			<Schuss>-</Schuss>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>1</Gewicht>
+			<Preis>350</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Langspeer (ZH)</Name>
+			<Gattung>Stichwaffen</Stichwaffen>
+			<Schaden>2w10+2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Reichweite>-</Reichweite>
+			<Ladezeit>-</Ladezeit>
+			<Schuss>-</Schuss>
+			<Mindeststaerke>2</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>0,25</Gewicht>
+			<Preis>50</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+	</Waffen>
+</AC-Creator>
