@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ACreator>
+<AC-Creator>
 	<Gattungen>
 		<Gattung>Stichwaffen</Gattung>
 		<Gattung>Wuchtwaffen</Gattung>
@@ -33,6 +33,10 @@
 		<Besonderheit>
 			<Name>Geschicklichkeitsanforderung 6</Name>
 			<Effekt>Es wird ein gewisser Geschicklichkeitswert benötigt um die Waffe führen zu können.</Effekt>
+		</Besonderheit>
+		<Besonderheit>
+			<Name></Name>
+			<Effekt></Effekt>
 		</Besonderheit>
 	</Besonderheiten>
 	<Waffen>
@@ -247,4 +251,4 @@
 			<Besonderheit>-</Besonderheit>
 		</Waffe>
 	</Waffen>
-</ACreator>
+</AC-Creator>
