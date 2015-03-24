@@ -6,8 +6,14 @@
 		<Gattung>Gladiator</Gattung>
 	</Gattungen>
 	<Besonderheiten>
-		<Besonderheit>Schützt nur Schwertarm</Besonderheit>
-		<Besonderheit>Schützt entweder rechts oder links</Besonderheit>
+		<Besonderheit>Schützt nur Schwertarm
+			<Name>Schützt nur Schwertarm</Name>
+			<Effekt>RS für Arme nur auf den Schwertarm anwenden</Effekt>
+		</Besonderheit>
+		<Besonderheit>
+			<Name>Schützt entweder rechts oder links</Name>
+			<Effekt>RS für Arme nur auf einen Arm anwenden</Effekt>
+		</Besonderheit>
 	</Besonderheiten>
 	<Ruestungen>
 		<Ruestung>
