@@ -6,9 +6,18 @@
 			<Effekt>Wird am Arm festgeschnallt und muss nicht abgenommen werden um eine Zweihandwaffe zu führen. Unwirksam bei Verwendung von Zweihandwaffen.</Effekt>
 		</Besonderheit>
 	</Besonderheiten>
+	<Regelwerke>
+		<Regelwerk>Grundregelwerk</Regelwerk>
+		<Regelwerk>Kompendium</Regelwerk>
+	</Regelwerke>
+	<Fertigkeiten>
+		<Fertigkeit>Schilde</Fertigkeit>
+	</Fertigkeiten>
 	<Schilde>
 		<Schild>
 			<Name>Feenschild</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Fertigkeit>Schilde</Fertigkeit>
 			<Besonderheit>Tartsche</Besonderheit>
 			<Ruestungsschutz>0</Ruestungsschutz>
 			<Schaden>1</Schaden>
@@ -21,6 +30,8 @@
 		</Schild>
 		<Schild>
 			<Name>Keilschild</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Fertigkeit>Schilde</Fertigkeit>
 			<Besonderheit>Tartsche</Besonderheit>
 			<Ruestungsschutz>3</Ruestungsschutz>
 			<Schaden>1w10-1</Schaden>
@@ -33,6 +44,8 @@
 		</Schild>
 		<Schild>
 			<Name>Ritterschild</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Fertigkeit>Schilde</Fertigkeit>
 			<Besonderheit>Tartsche</Besonderheit>
 			<Ruestungsschutz>2</Ruestungsschutz>
 			<Schaden>1w10/2</Schaden>
@@ -45,6 +58,8 @@
 		</Schild>
 		<Schild>
 			<Name>Rundschild</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Fertigkeit>Schilde</Fertigkeit>
 			<Besonderheit>Tartsche</Besonderheit>
 			<Ruestungsschutz>1</Ruestungsschutz>
 			<Schaden>1w10/2</Schaden>
@@ -57,6 +72,8 @@
 		</Schild>
 		<Schild>
 			<Name>Tartsche</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Fertigkeit>Schilde</Fertigkeit>
 			<Besonderheit>Tartsche</Besonderheit>
 			<Ruestungsschutz>0</Ruestungsschutz>
 			<Schaden>1w10/2</Schaden>
@@ -69,6 +86,8 @@
 		</Schild>
 		<Schild>
 			<Name>Turmschild</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Fertigkeit>Schilde</Fertigkeit>
 			<Besonderheit>Tartsche</Besonderheit>
 			<Ruestungsschutz>4</Ruestungsschutz>
 			<Schaden>1w10-1</Schaden>

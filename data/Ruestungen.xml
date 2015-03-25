@@ -5,6 +5,10 @@
 		<Gattung>Winzig</Gattung>
 		<Gattung>Gladiator</Gattung>
 	</Gattungen>
+	<Regelwerke>
+		<Regelwerk>Grundregelwerk</Regelwerk>
+		<Regelwerk>Kompendium</Regelwerk>
+	</Regelwerke>
 	<Besonderheiten>
 		<Besonderheit>Schützt nur Schwertarm
 			<Name>Schützt nur Schwertarm</Name>
@@ -18,6 +22,7 @@
 	<Ruestungen>
 		<Ruestung>
 			<Name>Bänderpanzer</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -47,8 +52,9 @@
 				<Torso>-</Torso>
 			</Preis>
 		</Ruestung>
-				<Ruestung>
+		<Ruestung>
 			<Name>Bronzepanzer</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -80,6 +86,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Bronzepanzer (Bronze)</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -111,6 +118,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Fellrüstung (Barbarenrüstung)</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -142,6 +150,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Holzrüstung</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -173,6 +182,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Kettenrüstung</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -204,6 +214,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Lamellenpanzer</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -235,6 +246,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Leder</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -266,6 +278,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Leichte Lederrüstung</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -297,6 +310,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Plattenpanzer</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -328,6 +342,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Schlingpflanzen(lebende)</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -359,6 +374,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Schuppenpanzer</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -390,6 +406,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Schweres Leder(beschlagen)</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -421,6 +438,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Verstärkte Kleidung</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -452,6 +470,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Vollplatte(Ritterrüstung)</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -483,6 +502,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Wattierter Waffenrock</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -514,6 +534,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Zwergenplattenpanzer</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Normal</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -545,6 +566,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Lederrüstung</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Winzig</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -576,6 +598,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Miniaturfarn</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Winzig</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -607,6 +630,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Mithrilharnisch</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Winzig</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -638,6 +662,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Mithrilkettenhemd</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Winzig</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -669,6 +694,7 @@
 		</Ruestung>
 		<Ruestung>
 			<Name>Bestiarius</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Gladiatoren</Gattung>
 			<Beschreibung>Der Bestiarius ist mit einer Galea und einem Harnisch aus schwerem Leder 
 gerüstet. Er kämpft mit Peitsche und Speer, meist gegen Monster und wilde Tiere.</Beschreibung>
@@ -701,6 +727,7 @@ gerüstet. Er kämpft mit Peitsche und Speer, meist gegen Monster und wilde Tier
 		</Ruestung>
 		<Ruestung>
 			<Name>Dimachaeri</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Gladiatoren</Gattung>
 			<Beschreibung>Der  Dimachaeri  besteht  aus  Galea,  Bronzebeinpanzerung  und 
 einer Bronzebrustpanzerung. Er kämpft mit einem Breitschwert in jeder Hand.</Beschreibung>
@@ -733,6 +760,7 @@ einer Bronzebrustpanzerung. Er kämpft mit einem Breitschwert in jeder Hand.</Be
 		</Ruestung>
 		<Ruestung>
 			<Name>Drakus</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Gladiatoren</Gattung>
 			<Beschreibung>Der Drakus besteht aus einer Galea und zwei Galeri. Oft wird dazu eine 
 Tartsche getragen. Der so gerüstete Gladiator kämpft klassischerweise mit einer 
@@ -766,6 +794,7 @@ Khopesh oder dem Kurzschwert.</Beschreibung>
 		</Ruestung>
 		<Ruestung>
 			<Name>Equites</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Gladiatoren</Gattung>
 			<Beschreibung>Zur Rüstung des Equites gehört lediglich eine Bronzebrustplatte. Er 
 kämpft mit einem Langschwert und einem Speer vom Pferd aus.</Beschreibung>
@@ -798,6 +827,7 @@ kämpft mit einem Langschwert und einem Speer vom Pferd aus.</Beschreibung>
 		</Ruestung>
 		<Ruestung>
 			<Name>Essedari</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Gladiatoren</Gattung>
 			<Beschreibung>Der Essedari-Gladiator trägt den Topfhelm eines Plattenpanzers und 
 ein langärmliges Kettenhemd. Er kämpft mit Speeren, Spießen oder Schwertern 
@@ -831,6 +861,7 @@ mit einem Partner vom Streitwagen aus.</Beschreibung>
 		</Ruestung>
 		<Ruestung>
 			<Name>Galea (Gladiatorenhelm)</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Gladiatoren</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -862,6 +893,7 @@ mit einem Partner vom Streitwagen aus.</Beschreibung>
 		</Ruestung>
 		<Ruestung>
 			<Name>Galerus (Panzerarm)</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Gladiatoren</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>Schützt entweder rechts oder links</Besonderheit>
@@ -893,6 +925,7 @@ mit einem Partner vom Streitwagen aus.</Beschreibung>
 		</Ruestung>
 		<Ruestung>
 			<Name>Gesichtsmaske (Leder)</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Gladiatoren</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -924,6 +957,7 @@ mit einem Partner vom Streitwagen aus.</Beschreibung>
 		</Ruestung>
 		<Ruestung>
 			<Name>Gesichtsmaske (Metall)</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Gladiatoren</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -955,6 +989,7 @@ mit einem Partner vom Streitwagen aus.</Beschreibung>
 		</Ruestung>
 		<Ruestung>
 			<Name>Intimschutz (Leder)</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Gladiatoren</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -986,6 +1021,7 @@ mit einem Partner vom Streitwagen aus.</Beschreibung>
 		</Ruestung>
 		<Ruestung>
 			<Name>Intimschutz (Metall)</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Gladiatoren</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -1017,6 +1053,7 @@ mit einem Partner vom Streitwagen aus.</Beschreibung>
 		</Ruestung>
 		<Ruestung>
 			<Name>Khemnit</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Gladiatoren</Gattung>
 			<Beschreibung>Am Torso ist der Khemnit mit einer Bronzebrustplatte gepanzert, am 
 Schwertarm mit einem Galerus und am Kopf mit einer Galea. Zu dieser Rüstung 
@@ -1050,6 +1087,7 @@ trägt er einen Rundschild und ein Kurzschwert oder ein Breitschwert.</Beschreib
 		</Ruestung>
 		<Ruestung>
 			<Name>Retiarius</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Gladiatoren</Gattung>
 			<Beschreibung>Der Retiarius trägt allenfalls eine Schulterplatte und kämpft ansonsten mit Dreizack, Dolch und Netz.</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -1081,6 +1119,7 @@ trägt er einen Rundschild und ein Kurzschwert oder ein Breitschwert.</Beschreib
 		</Ruestung>
 		<Ruestung>
 			<Name>Schulterplatte</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Gladiatoren</Gattung>
 			<Beschreibung>-</Beschreibung>
 			<Besonderheit>-</Besonderheit>
@@ -1112,6 +1151,7 @@ trägt er einen Rundschild und ein Kurzschwert oder ein Breitschwert.</Beschreib
 		</Ruestung>
 		<Ruestung>
 			<Name>Vargothio</Name>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Gladiatoren</Gattung>
 			<Beschreibung>Die Vargothio-Rüstungskombination besteht aus zwei Galeri, einer 
 Galea  und  einer  schweren  Lederrüstung  am  Rest  des  Körpers.  Der  Gladiator 
