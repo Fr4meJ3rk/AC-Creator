@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ACreator>
+  <Gattungen>
+    <Gattung>Ausrüstungsgegenstand</Gattung>
+    <Gattung>Falle</Gattung>
+    <Gattung>Werkzeug und Rohmaterial</Gattung>
+    <Gattung>Nahrung</Gattung>
+    <Gattung>Musikinstrument</Gattung>
+    <Gattung>Kleidung</Gattung>
+  </Gattungen>
+  <Besonderheiten>
+    <Besonderheit>
+      <Name>NULL</Name>
+      <Effekt>NULL</Effekt>
+    </Besonderheit>
+  </Besonderheiten>
+  <Regelwerke>
+    <Regelwerk>Grundregelwerk</Regelwerk>
+  </Regelwerke>
+  <Gegenstaende>
+    <Gegenstand>
+      <Name>Barockes Ballkleid</Name>
+      <Gewicht>3</Gewicht>
+      <Preis>2500</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Cape</Name>
+      <Gewicht>0,5</Gewicht>
+      <Preis>40</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Gewandnadel</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>10</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Gugel</Name>
+      <Gewicht>0,25</Gewicht>
+      <Preis>20</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Gürtel</Name>
+      <Gewicht>0,25</Gewicht>
+      <Preis>15</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Gürteltaschen</Name>
+      <Gewicht>0,25</Gewicht>
+      <Preis>30</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Haarband</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>5</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Handschuhe (Leder)</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>30</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Handschuhe (Leinen)</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>10</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Handschuhe (Samt)</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>50</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Handschuhe (Seide)</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>200</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Hemd/Bluse (Leder)</Name>
+      <Gewicht>0,25</Gewicht>
+      <Preis>60</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Hemd/Bluse (Leinen)</Name>
+      <Gewicht>0,25</Gewicht>
+      <Preis>30</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Hose (Leder) zum Schnüren</Name>
+      <Gewicht>0,5</Gewicht>
+      <Preis>80</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Hose/Rock (Leinen)</Name>
+      <Gewicht>0,5</Gewicht>
+      <Preis>40</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Hose/Rock (Samt)</Name>
+      <Gewicht>0,25</Gewicht>
+      <Preis>200</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Hut/Mütze</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>20</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Jacke (Leder)</Name>
+      <Gewicht>1</Gewicht>
+      <Preis>120</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Kapuzenumhang</Name>
+      <Gewicht>1</Gewicht>
+      <Preis>60</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Kette</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>10</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Kleid</Name>
+      <Gewicht>1</Gewicht>
+      <Preis>60</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Kniebundhose (Seide)</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>800</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Kopftuch</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>10</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Korsett</Name>
+      <Gewicht>0,5</Gewicht>
+      <Preis>100</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Lendenschurz</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>5</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Mantel (Filz)</Name>
+      <Gewicht>0,75</Gewicht>
+      <Preis>70</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Mantel (Leder)</Name>
+      <Gewicht>2</Gewicht>
+      <Preis>200</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Mieder</Name>
+      <Gewicht>0,25</Gewicht>
+      <Preis>20</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name></Name>
+      <Gewicht></Gewicht>
+      <Preis></Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Perücke</Name>
+      <Gewicht>0,25</Gewicht>
+      <Preis>50</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Robe</Name>
+      <Gewicht>1,5</Gewicht>
+      <Preis>50</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Rockjacke (Brokat)</Name>
+      <Gewicht>0,5</Gewicht>
+      <Preis>250</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Rüschenhemd (Baumwolle)</Name>
+      <Gewicht>0,25</Gewicht>
+      <Preis>60</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Rüschenhemd (Seide)</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>600</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Sandalen</Name>
+      <Gewicht>0,25</Gewicht>
+      <Preis>20</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Schärpe</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>10</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Schleier (Seide)</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>160</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Schuhe (Leder)</Name>
+      <Gewicht>1</Gewicht>
+      <Preis>40</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Stiefel (Leder)</Name>
+      <Gewicht>1,5</Gewicht>
+      <Preis>60</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Strümpfe (Seide)</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>100</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Strümpfe (Wolle)</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>5</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Stulpenhandschuhe (Leder)</Name>
+      <Gewicht>0,25</Gewicht>
+      <Preis>60</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Stulpenstiefel (Leder)</Name>
+      <Gewicht>2</Gewicht>
+      <Preis>120</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Unterwäsche</Name>
+      <Gewicht>0</Gewicht>
+      <Preis>10</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Wappenmantel</Name>
+      <Gewicht>2</Gewicht>
+      <Preis>100</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Weste</Name>
+      <Gewicht>0,25</Gewicht>
+      <Preis>25</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+    <Gegenstand>
+      <Name>Wildlederhose</Name>
+      <Gewicht>0,5</Gewicht>
+      <Preis>100</Preis>
+      <Anzahl>1</Anzahl>
+      <Regelwerk>Grundregelwerk</Regelwerk>
+      <Gattung>Kleidung</Gattung>
+    </Gegenstand>
+  <Gegenstand>			
+	<Name>	Bärenfalle	</Name>
+	<Gewicht>	3,5	</Gewicht>
+	<Preis>	250	</Preis>
+	<Anzahl>	1	</Anzahl>
+	<Regelwerk>	Grundregelwerk	</Regelwerk>
+	<Gattung>	Falle	</Gattung>
+</Gegenstand>			
+<Gegenstand>			
+	<Name>	Zwergischer Beinschneider	</Name>
+	<Gewicht>	5	</Gewicht>
+	<Preis>	300	</Preis>
+	<Anzahl>	1	</Anzahl>
+	<Regelwerk>	Grundregelwerk	</Regelwerk>
+	<Gattung>	Falle	</Gattung>
+</Gegenstand>			
+
+  </Gegenstaende>
+</ACreator>
