@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AC-Creator>
+	<Regelwerke>
+		<Regelwerk>Grundregelwerk</Regelwerk>
+		<Regelwerk>Kompendium</Regelwerk>
+	</Regelwerke>
 	<Gattungen>
 		<Gattung>Stichwaffen</Gattung>
 		<Gattung>Wuchtwaffen</Gattung>
@@ -51,10 +55,78 @@
 			<Name>Zweihändig</Name>
 			<Effekt>Zweihändig geführte Waffe die daher nicht für den Gebrauch vom Reittier aus gedacht ist. Malus von -5 wenn dennoch zweihändig vom Pferd aus geführt.</Effekt>
 		</Besonderheit>
+		<Besonderheit>
+			<Name>Bihänder</Name>
+			<Effekt>Ein Bihänder kann sowohl einhändig als auch zweihändig geführt werden. Zweihändig geführt, steigt der Schaden um 2 Punkte an</Effekt>
+		</Besonderheit>
+		<Besonderheit>
+			<Name>Lanze</Name>
+			<Effekt>Kann nur vom Rücken eines Reittieres aus verwendet werden</Effekt>
+		</Besonderheit>
 	</Besonderheiten>
+	<Fertigkeiten>
+		<Fertigkeit>
+			<Name>Äxte</Name>
+			<Eigenschaft>Stärke</Eigenschaft>
+		</Fertigkeit>
+		<Fertigkeit>
+			<Name>Dolche</Name>
+			<Eigenschaft>Geschicklichkeit</Eigenschaft>
+		</Fertigkeit>
+		<Fertigkeit>
+			<Name>Fechtwaffen</Name>
+			<Eigenschaft>Geschicklichkeit</Eigenschaft>
+		</Fertigkeit>
+		<Fertigkeit>
+			<Name>Improvisierte Waffen</Name>
+			<Eigenschaft>Geschicklichkeit</Eigenschaft>
+		</Fertigkeit>
+		<Fertigkeit>
+			<Name>Kettenwaffen</Name>
+			<Eigenschaft>Geschicklichkeit</Eigenschaft>
+		</Fertigkeit>
+		<Fertigkeit>
+			<Name>Lasso</Name>
+			<Eigenschaft>Geschicklichkeit</Eigenschaft>
+		</Fertigkeit>
+		<Fertigkeit>
+			<Name>Peitsche</Name>
+			<Eigenschaft>Geschicklichkeit</Eigenschaft>
+		</Fertigkeit>
+		<Fertigkeit>
+			<Name>Speere & Stäbe</Name>
+			<Eigenschaft>Geschicklichkeit</Eigenschaft>
+		</Fertigkeit>
+		<Fertigkeit>
+			<Name>Stangenwaffen</Name>
+			<Eigenschaft>Geschicklichkeit</Eigenschaft>
+		</Fertigkeit>
+		<Fertigkeit>
+			<Name>Waffenloser Kampf</Name>
+			<Eigenschaft>Geschicklichkeit</Eigenschaft>
+		</Fertigkeit>
+		<Fertigkeit>
+			<Name>Schwerter</Name>
+			<Eigenschaft>Stärke</Eigenschaft>
+		</Fertigkeit>
+		<Fertigkeit>
+			<Name>Lanze</Name>
+			<Eigenschaft>Stärke</Eigenschaft>
+		</Fertigkeit>
+		<Fertigkeit>
+			<Name>Schilde</Name>
+			<Eigenschaft>Stärke</Eigenschaft>
+		</Fertigkeit>
+		<Fertigkeit>
+			<Name>Stumpfe Hiebwaffen</Name>
+			<Eigenschaft>Stärke</Eigenschaft>
+		</Fertigkeit>
+	</Fertigkeiten>
 	<Waffen>
 		<Waffe>
 			<Name>Berdyche (Schusswaffenaufsatz)</Name>
+			<Fertigkeit>Dolche</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10</Schaden>
 			<Schadensart>T</Schadensart>
@@ -66,6 +138,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Cestus (Kampfhandschuh)</Name>
+			<Fertigkeit>Dolche</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10</Schaden>
 			<Schadensart>T</Schadensart>
@@ -77,6 +151,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Degen</Name>
+			<Fertigkeit>Fechtwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10 + 3</Schaden>
 			<Schadensart>T</Schadensart>
@@ -88,6 +164,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Dolch/Messer</Name>
+			<Fertigkeit>Dolche</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10</Schaden>
 			<Schadensart>T</Schadensart>
@@ -99,17 +177,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Dreizack</Name>
-			<Gattung>Stichwaffen</Gattung>
-			<Schaden>2w10+1</Schaden>
-			<Schadensart>T</Schadensart>
-			<Mindeststaerke>4</Mindeststaerke>
-			<Groesse>M</Groesse>
-			<Gewicht>2,5</Gewicht>
-			<Preis>250</Preis>
-			<Besonderheit>Antikavallerie; Zweihändig</Besonderheit>
-		</Waffe>
-		<Waffe>
-			<Name>Dreizack</Name>
+			<Fertigkeit>Stangenwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>2w10-1</Schaden>
 			<Schadensart>T</Schadensart>
@@ -117,10 +186,12 @@
 			<Groesse>M</Groesse>
 			<Gewicht>2,5</Gewicht>
 			<Preis>250</Preis>
-			<Besonderheit>Antikavallerie</Besonderheit>
+			<Besonderheit>Antikavallerie; Bihänder</Besonderheit>
 		</Waffe>
 		<Waffe>
 			<Name>Florett</Name>
+			<Fertigkeit>Fechtwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10+1</Schaden>
 			<Schadensart>T</Schadensart>
@@ -132,6 +203,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Fußangeln (10)</Name>
+			<Fertigkeit>Improvisierte Waffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1-2</Schaden>
 			<Schadensart>T</Schadensart>
@@ -143,6 +216,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Gaffel/Haken</Name>
+			<Fertigkeit>Improvisierte Waffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10</Schaden>
 			<Schadensart>T</Schadensart>
@@ -154,6 +229,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Geißel (neunschwänzig)</Name>
+			<Fertigkeit>Peitsche</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10-1</Schaden>
 			<Schadensart>T</Schadensart>
@@ -165,6 +242,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Glefe</Name>
+			<Fertigkeit>Stangenwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>2w10</Schaden>
 			<Schadensart>T</Schadensart>
@@ -176,6 +255,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Halblingdegen/-rapier "Stecher"</Name>
+			<Fertigkeit>Fechtwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10+1</Schaden>
 			<Schadensart>T</Schadensart>
@@ -187,6 +268,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Khatar (Schlagdolch)</Name>
+			<Fertigkeit>Dolche</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10</Schaden>
 			<Schadensart>T</Schadensart>
@@ -198,6 +281,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Kriegsgabel</Name>
+			<Fertigkeit>Stangenwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>2w10+2</Schaden>
 			<Schadensart>T</Schadensart>
@@ -209,6 +294,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Kurzschwert</Name>
+			<Fertigkeit>Schwerter</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10+4</Schaden>
 			<Schadensart>T</Schadensart>
@@ -220,6 +307,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Langspeer</Name>
+			<Fertigkeit>Speere & Stäbe</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>2w10+2</Schaden>
 			<Schadensart>T</Schadensart>
@@ -230,7 +319,9 @@
 			<Besonderheit>Antikavallerie; Initiative; Zweihändig</Besonderheit>
 		</Waffe>
 		<Waffe>
-			<Name>Lanze (nur vom Reittier aus)</Name>
+			<Name>Lanze</Name>
+			<Fertigkeit>Lanze</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>3w10</Schaden>
 			<Schadensart>T</Schadensart>
@@ -238,10 +329,12 @@
 			<Groesse>M</Groesse>
 			<Gewicht>4</Gewicht>
 			<Preis>100</Preis>
-			<Besonderheit>Initiative</Besonderheit>
+			<Besonderheit>Initiative, Lanze</Besonderheit>
 		</Waffe>
 		<Waffe>
 			<Name>Main Gauche "Parierdolch"</Name>
+			<Fertigkeit>Fechtwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10</Schaden>
 			<Schadensart>T</Schadensart>
@@ -253,6 +346,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Mornabart (Kette mit Haken)</Name>
+			<Fertigkeit>Kettenwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10+2</Schaden>
 			<Schadensart>T</Schadensart>
@@ -264,6 +359,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Pike</Name>
+			<Fertigkeit>Speere & Stäbe</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>2w10+3</Schaden>
 			<Schadensart>T</Schadensart>
@@ -275,6 +372,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Rapier</Name>
+			<Fertigkeit>Fechtwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10+2</Schaden>
 			<Schadensart>T</Schadensart>
@@ -286,6 +385,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Speer</Name>
+			<Fertigkeit>Speere & Stäbe</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10+2</Schaden>
 			<Schadensart>T</Schadensart>
@@ -297,6 +398,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Spikes (auf Rüstung oder Schild)</Name>
+			<Fertigkeit>Waffenloser Kampf</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10-1</Schaden>
 			<Schadensart>T</Schadensart>
@@ -308,6 +411,8 @@
 		</Waffe>
 		<Waffe>
 			<Name>Stilett</Name>
+			<Fertigkeit>Dolche</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
 			<Gattung>Stichwaffen</Gattung>
 			<Schaden>1w10-1</Schaden>
 			<Schadensart>T</Schadensart>
@@ -316,6 +421,604 @@
 			<Gewicht>0,25</Gewicht>
 			<Preis>60</Preis>
 			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Bastardschwert</Name>
+			<Fertigkeit>Schwerter</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>2w10+2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>7</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>2,5</Gewicht>
+			<Preis>720</Preis>
+			<Besonderheit>Bihänder</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Breitschwert</Name>
+			<Fertigkeit>Schwerter</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>2w10+1</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>6</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>2</Gewicht>
+			<Preis>500</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Claymore</Name>
+			<Fertigkeit>Schwerter</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>2w10+4</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>5</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>2,75</Gewicht>
+			<Preis>700</Preis>
+			<Besonderheit>Zweihändig</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Handbeil</Name>
+			<Fertigkeit>Äxte</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>1w10+1</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>1</Gewicht>
+			<Preis>40</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>	
+		<Waffe>
+			<Name>Hellebarde</Name>
+			<Fertigkeit>Stangenwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>2w10+3</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>5</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>5</Gewicht>
+			<Preis>200</Preis>
+			<Besonderheit>Antikavallerie; Zweihändig</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Holzfälleraxt</Name>
+			<Fertigkeit>Äxte</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>2w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>2,5</Gewicht>
+			<Preis>100</Preis>
+			<Besonderheit>Zweihändig</Besonderheit>
+		</Waffe>	
+		<Waffe>
+			<Name>Khopesh</Name>
+			<Fertigkeit>Schwerter</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>1w10+3</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>3</Gewicht>
+			<Preis>250</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Krummschwert</Name>
+			<Fertigkeit>Schwerter</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>1w10+4</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>1,5</Gewicht>
+			<Preis>300</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Langschwert</Name>
+			<Fertigkeit>Schwerter</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>2w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>1,5</Gewicht>
+			<Preis>500</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Säbel</Name>
+			<Fertigkeit>Fechtwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>1w10+4</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>1</Gewicht>
+			<Preis>600</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Schwanzaufsatz für Krask</Name>
+			<Fertigkeit>Waffenloser Kampf</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>1w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>1</Gewicht>
+			<Preis>200</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Sense (EH)</Name>
+			<Fertigkeit>Stangenwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>1w10+2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>2,5</Gewicht>
+			<Preis>60</Preis>
+			<Besonderheit>Bihänder</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Sichel</Name>
+			<Fertigkeit>Improvisierte Waffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>1w10-1</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>2</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>0,5</Gewicht>
+			<Preis>50</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Stangenaxt</Name>
+			<Fertigkeit>Stangenwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>2w10+4</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>6</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>4</Gewicht>
+			<Preis>300</Preis>
+			<Besonderheit>Antikavallerie; Zweihändig</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Streitaxt</Name>
+			<Fertigkeit>Äxte</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>2w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>3</Gewicht>
+			<Preis>250</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Trollaxt</Name>
+			<Fertigkeit>Äxte</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>2w10+2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>8</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>5</Gewicht>
+			<Preis>400</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Trollschwert</Name>
+			<Fertigkeit>Schwerter</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>2w10+2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>7</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>4</Gewicht>
+			<Preis>800</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Trollzweihandaxt</Name>
+			<Fertigkeit>Äxte</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>3w10+2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>10</Mindeststaerke>
+			<Groesse>R</Groesse>
+			<Gewicht>10</Gewicht>
+			<Preis>1200</Preis>
+			<Besonderheit>Zweihändig</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Trollzweihänder</Name>
+			<Fertigkeit>Schwerter</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>4w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>10</Mindeststaerke>
+			<Groesse>R</Groesse>
+			<Gewicht>8</Gewicht>
+			<Preis>2000</Preis>
+			<Besonderheit>Zweihändig</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Zweihänder</Name>
+			<Fertigkeit>Schwerter</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>3w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>6</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>4</Gewicht>
+			<Preis>900</Preis>
+			<Besonderheit>Zweihändig</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Zweihandkhopesh</Name>
+			<Fertigkeit>Schwerter</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>2w10+2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>6</Gewicht>
+			<Preis>500</Preis>
+			<Besonderheit>Zweihändig</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Zweihandkrummschwert</Name>
+			<Fertigkeit>Schwerter</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>2w10+4</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>5</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>3</Gewicht>
+			<Preis>750</Preis>
+			<Besonderheit>Zweihändig</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Zweihandstreitaxt</Name>
+			<Fertigkeit>Äxte</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Schnittwaffen</Gattung>
+			<Schaden>3w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>7</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>5</Gewicht>
+			<Preis>500</Preis>
+			<Besonderheit>Zweihändig</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Fangeisen</Name>
+			<Fertigkeit>Stangenwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>(1w10)/2</Schaden>
+			<Schadensart>B</Schadensart>
+			<Mindeststaerke>5</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>2</Gewicht>
+			<Preis>200</Preis>
+			<Besonderheit>Umschlingend</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Faust/Tritt</Name>
+			<Fertigkeit>Waffenloser Kampf</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>(1w10)/2</Schaden>
+			<Schadensart>B</Schadensart>
+			<Mindeststaerke>0</Mindeststaerke>
+			<Groesse>V</Groesse>
+			<Gewicht>0</Gewicht>
+			<Preis>0</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Improvisierter Knüppel</Name>
+			<Fertigkeit>Improvisierten Waffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>1w10-1</Schaden>
+			<Schadensart>B</Schadensart>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>1</Gewicht>
+			<Preis>0</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Kampfstab (Eisen)</Name>
+			<Fertigkeit>Speere & Stäbe</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>1w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>3,5</Gewicht>
+			<Preis>150</Preis>
+			<Besonderheit>Bihänder</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Kampfstab (Holz)</Name>
+			<Fertigkeit>Speere & Stäbe</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>1w10</Schaden>
+			<Schadensart>B</Schadensart>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>2</Gewicht>
+			<Preis>20</Preis>
+			<Besonderheit>Bihänder</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Kette</Name>
+			<Fertigkeit>Kettenwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>1w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>1,5</Gewicht>
+			<Preis>40</Preis>
+			<Besonderheit>Kettenwaffe; Umschlingend</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Knüppel/Keule</Name>
+			<Fertigkeit>Stumpfe Hiebwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>1w10</Schaden>
+			<Schadensart>B</Schadensart>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>1,5</Gewicht>
+			<Preis>20</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Kriegshammer</Name>
+			<Fertigkeit>Stumpfe Hiebwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>1w10+2</Schaden>
+			<Schadensart>K</Schadensart>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>3</Gewicht>
+			<Preis>120</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Lasso</Name>
+			<Fertigkeit>Lasso</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>(1w10)/2</Schaden>
+			<Schadensart>B</Schadensart>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>1</Gewicht>
+			<Preis>50</Preis>
+			<Besonderheit>Lasso</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Morgenstern</Name>
+			<Fertigkeit>Kettenwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>2w10+1</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>5</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>3</Gewicht>
+			<Preis>150</Preis>
+			<Besonderheit>Kettenwaffe; Geschicklichkeitsanforderung 5</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Netz</Name>
+			<Fertigkeit>Improvisierte Waffe</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>1</Schaden>
+			<Schadensart>B</Schadensart>
+			<Mindeststaerke>5</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>2,5</Gewicht>
+			<Preis>50</Preis>
+			<Besonderheit>Geschicklichkeitsanforderung 5; Umschlingend</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Panzerhandschuh (Gauntlet)</Name>
+			<Fertigkeit>Waffenloser Kampf</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>(1w10)/2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>1,05</Gewicht>
+			<Preis>400</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Panzerschuh</Name>
+			<Fertigkeit>Waffenloser Kampf</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>1w10-1</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>1,4</Gewicht>
+			<Preis>400</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Peitsche</Name>
+			<Fertigkeit>Peitsche</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>(1w10)/2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>1</Gewicht>
+			<Preis>30</Preis>
+			<Besonderheit>Umschlingend</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Streitkolben</Name>
+			<Fertigkeit>Stumpfe Hiebwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>1w10+2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>2</Gewicht>
+			<Preis>100</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Totschläger</Name>
+			<Fertigkeit>Stumpfe Hiebwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>1w10</Schaden>
+			<Schadensart>B</Schadensart>
+			<Mindeststaerke>3</Mindeststaerke>
+			<Groesse>K</Groesse>
+			<Gewicht>0,5</Gewicht>
+			<Preis>15</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Trollkriegshammer</Name>
+			<Fertigkeit>Stumpfe Hiebwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>2w10+2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>8</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>4,5</Gewicht>
+			<Preis>240</Preis>
+			<Besonderheit>-</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Turnierlanze</Name>
+			<Fertigkeit>Lanze</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>1w10+2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>M</Groesse>
+			<Gewicht>2</Gewicht>
+			<Preis>100</Preis>
+			<Besonderheit>Lanze</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Zweihandflegel</Name>
+			<Fertigkeit>Kettenwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>2w10+4</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>5</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>5</Gewicht>
+			<Preis>400</Preis>
+			<Besonderheit>Kettenwaffe; Zweihändig</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Zweihandkeule</Name>
+			<Fertigkeit>Stumpfe Hiebwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>2w10</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>6</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>3</Gewicht>
+			<Preis>40</Preis>
+			<Besonderheit>Zweihändig</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Zweihandkriegshammer</Name>
+			<Fertigkeit>Stumpfe Hiebwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>2w10+4</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>7</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>6</Gewicht>
+			<Preis>400</Preis>
+			<Besonderheit>Zweihändig</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Zweihandstreitkolben</Name>
+			<Fertigkeit>Stumpfe Hiebwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>2w10+2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>4</Mindeststaerke>
+			<Groesse>G</Groesse>
+			<Gewicht>4</Gewicht>
+			<Preis>300</Preis>
+			<Besonderheit>Zweihändig</Besonderheit>
+		</Waffe>
+		<Waffe>
+			<Name>Zweihandtrollkriegshammer</Name>
+			<Fertigkeit>Stumpfe Hiebwaffen</Fertigkeit>
+			<Regelwerk>Grundregelwerk</Regelwerk>
+			<Gattung>Wuchtwaffen</Gattung>
+			<Schaden>3w10+2</Schaden>
+			<Schadensart>T</Schadensart>
+			<Mindeststaerke>11</Mindeststaerke>
+			<Groesse>R</Groesse>
+			<Gewicht>12</Gewicht>
+			<Preis>1400</Preis>
+			<Besonderheit>Zweihändig</Besonderheit>
 		</Waffe>
 	</Waffen>
 </AC-Creator>
